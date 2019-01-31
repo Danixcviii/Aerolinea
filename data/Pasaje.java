@@ -3,7 +3,7 @@ package data;
 class pasaje {
   
   
-  private String id;
-  private double valor;
-  private String nombrePasajero;
+  protected String id;
+  protected double valor;
+  protected String nombrePasajero;
 }
