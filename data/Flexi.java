@@ -4,7 +4,8 @@ class Flexi extedns Pasaje implements Reembolsable{
 
   public static final double MULTA = 70000;
   
-  public Flexi (String silla){
+  public Flexi (String id,double valor,String silla){
+    super(id,valor);
     this.silla = silla;
   }
   
